@@ -1,4 +1,4 @@
 # BePerpetua.github.io
 
-Vsit this site at Instant-Deposit-Interns/perpetua-website-clone
+Vsit this site at https://instant-deposit-interns.github.io/perpetua-website-clone/
 
