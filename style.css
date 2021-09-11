@@ -676,7 +676,7 @@ div#preloader {
     height: 52px;
     border-radius: 0px;
     padding: 5px 15px;
-    width: 74%;
+    width: 100%;
     margin-bottom: 20px;
     border-right: 0px solid #f1f1f1;
 }
@@ -767,11 +767,25 @@ button.cale-btn:hover{
     color: #ddd;
     text-transform: capitalize;
 }
+.inner-form input{
+    color: black;
+}
+
+#payitems>option{
+    color: #ffb24d;
+}
+#phone{
+    display: none;
+}
+#phone input{
+    color: black;
+}
+
 .nice-select .option:hover, 
 .nice-select .option.focus, 
 .nice-select .option.selected.focus {
     background-color:transparent;
-    color: :#ffb24d;
+    color:#ffb24d;
 }
 /*--------------------------------*/
 /* 4. How to work Area
@@ -1459,6 +1473,9 @@ button.cale-btn:hover{
 .footer-area-bottom {
     padding: 25px 0;
     background:#11193b;
+    bottom: 0;
+    margin-bottom: 0;
+    
 }
 .copyright-text a:hover{
 	text-decoration: underline;
@@ -1599,14 +1616,22 @@ button.cale-btn:hover{
 /*----------------------------------------*/
 /*  15 . Breadcumbs Area
 /*----------------------------------------*/
-.page-area {
+.page-area , .contact-page-area{
     position: relative;
 }
 .page-area {
-    background: url(img/background/bread-bg.jpg);
+    background: url(img/background/adeolu-eletu-unRkg2jH1j0-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.contact-page-area{
+    background: url(img/background/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
 }
 .breadcumb-overlay {
   position: absolute;
@@ -1616,7 +1641,7 @@ button.cale-btn:hover{
   left: 0;
   height: 100%;
 }
-.page-area .section-headline::after {
+.page-area .section-headline::after .contact-page-area {
     display: none;
 }
 .breadcrumb {
@@ -2922,6 +2947,10 @@ span.email-notes{
     top: -10px;
     color: #ccc;
     font-size: 20px;
+}
+.content-area{
+    /* width: 35%;
+    height: 150vh; */
 }
 /*--------------------------------*/
 /* .Send Money CSS
