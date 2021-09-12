@@ -1,4 +1,4 @@
-# Perpetua-website-clone
+# Lucky Safepay
 
-Vsit this site at https://instant-deposit-interns.github.io/perpetua-website-clone/
+Vsit this site at https://instant-deposit-interns.github.io/lucky-safepay/
 
